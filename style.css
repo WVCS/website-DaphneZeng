@@ -1,3 +1,48 @@
-body {
+h3 {
+  color: #354E2D;
+    text-decoration: overline underline 6px dotted;
+    letter-spacing: -2px;
+  text-shadow: 2px 2px 5px white; 
+  font-size:270%
+  }
+ body {
+  background-color: #B9D2B1;
 
+   img:hover {
+     width: 400px;
+     border: dashed #84596B 5px;
+     
+   }
+  
+nav {
+  list-style-type: none;
+  background-color: #A7BF9C;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left 0;
+  padding: 20px;
+  
 }
+li {
+   display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #DFFFD6;
+  padding: 20px 50px;
+  
+}
+
+li a:hover {
+  background-color: #EFB9CB;
+  color: #660031
+}
+   
+   img {
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+   
